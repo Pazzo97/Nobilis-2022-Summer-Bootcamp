@@ -1,0 +1,884 @@
+.about-file {
+  background-image: url('images/About.svg');
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'COCOGOOSE', Lato, sans-serif;
+  }
+
+  nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+
+  .mainMenu {
+    display: flex;
+    list-style: none;
+    color: #272a31;
+  }
+
+  nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #272a31;
+    font-size: 1.5rem;
+  }
+
+  .mainMenu li a:hover {
+    color: rgb(255, 94, 0);
+  }
+
+  .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .header-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.7;
+  }
+
+  .header-container {
+    position: relative;
+    background-color: rgba(247, 247, 247, 0.6);
+    z-index: 1;
+    padding-bottom: 40px;
+  }
+
+  .navbar {
+    margin: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #d3d3d3;
+    transition: top 1s ease;
+    display: none;
+    margin: 0;
+  }
+
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 65px;
+    right: 50px;
+  }
+
+  nav .openMenu {
+    display: block;
+  }
+
+  nav .mainMenu li a:hover {
+    background: none;
+    color: rgb(255, 123, 0);
+    font-size: 1.6rem;
+  }
+
+  .bootcamp-headings {
+    margin: 0 35px;
+  }
+
+  .hello {
+    font-size: 32px;
+    color: #ec5242;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .course-title {
+    font-size: 35px;
+    color: #ec5242;
+    margin-top: -25px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .summary {
+    border: 4px solid snow;
+  }
+
+  .summary > p {
+    color: #272a31;
+    font-size: 16px;
+    margin: 15px;
+    line-height: 30px;
+  }
+
+  .summary-about {
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #ccc;
+  }
+
+  .summary-about > p {
+    text-align: center;
+    color: #272a31;
+    font-size: 18px;
+    margin: 15px;
+    line-height: 30px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .timeline {
+    color: #000;
+    font-size: 30px;
+  }
+
+  /* About page till line  277 */
+  .contact {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: lighter;
+    color: #272a31;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    padding-bottom: 60px;
+  }
+
+  .email {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: -15px;
+  }
+
+  .global-recognition {
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #fff;
+  }
+
+  .recognition-title {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .recognition-content {
+    margin: 0 35px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .recognition-map {
+    text-align: center;
+    margin: 0 35px;
+    padding-bottom: 10px;
+  }
+
+  .recognition-map > img {
+    width: 100%;
+    height: 25%;
+    border: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+
+  .past-bootcamps {
+    text-align: center;
+    margin: 0 35px;
+    padding-top: 20px;
+    background-color: #fff;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+  }
+
+  .past-title {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .past-paragraph {
+    font-size: 18px;
+    color: #272a31;
+    text-align: center;
+    line-height: 32px;
+  }
+
+  .past-bootcamp {
+    position: relative;
+  }
+
+  .past-bootcamp img {
+    width: 100%;
+    border: 2px solid #ccc;
+    margin-bottom: 50px;
+    opacity: 0.4;
+  }
+
+  .past-bootcamp h2 {
+    font-size: 40px;
+    color: #ec5242;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0 !important;
+  }
+
+  .main-program {
+    margin-top: -31px;
+    color: #fff;
+    background: #000;
+  }
+
+  .main-program-contents {
+    margin: 0 35px;
+    padding-bottom: 50px;
+  }
+
+  .main-program-head {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+    padding-top: 50px;
+  }
+
+  hr.line {
+    width: 90px;
+    background-color: #ec5242;
+    margin-top: -12px;
+    margin-bottom: 80px;
+  }
+
+  hr.line-about {
+    width: 100%;
+  }
+
+  .icon {
+    background: #fff;
+  }
+
+  .card-box {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    background-color: rgb(68 62 62 / 46%);
+  }
+
+  .card-box > * {
+    margin: 10px 10px;
+  }
+
+  .program-title {
+    color: #ec5242;
+  }
+
+  .program-description > p {
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .join-button {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .btn-join {
+    height: 80px;
+    width: auto;
+    font-size: 25px;
+    background-color: #ec5242;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .join-link {
+    display: none;
+  }
+
+  .featured-lecturers {
+    margin: 20px 35px;
+    background-color: #fff;
+  }
+
+  .featured-lecturers-title {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25px;
+    font-size: 30px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .lecturer-box {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
+  }
+
+  .lecturer-bio {
+    margin: 10px;
+    font-size: 18px;
+  }
+
+  .lecturer-photo img {
+    height: auto;
+    width: 200px;
+    margin: 10px;
+  }
+
+  .lecturer-name {
+    color: #272a31;
+  }
+
+  .lecturer-job > p {
+    color: #ec5242;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .lecturer-summary p {
+    color: #272a31;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .more-btn {
+    width: 100%;
+    border: 1px solid #272a31;
+    color: #272a31;
+    padding: 14px 28px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 75px;
+    line-height: 50px;
+  }
+
+  .fa-chevron-down {
+    font-size: 25px;
+    color: #ec5242;
+    margin-left: 10px;
+  }
+
+  @media only screen and (max-width: 560px) {
+    .card-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card-box > .program-title,
+    .program-description {
+      margin-top: -25px;
+    }
+
+    .program-description {
+      margin-bottom: 30px;
+    }
+
+    .lecturer-box {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 25px;
+    }
+
+    .lecturer-box > * {
+      margin: 10px;
+    }
+
+    .lecturer-photo {
+      text-align: center;
+    }
+
+    .lecturer-name {
+      text-align: center;
+    }
+
+    .lecturer-bio {
+      margin-top: -50px;
+    }
+  }
+
+  .footer-content {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'COCOGOOSE', Lato, sans-serif;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .header-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.7;
+  }
+
+  .header-container {
+    position: relative;
+    background-color: rgba(247, 247, 247, 0.6);
+    z-index: 1;
+    padding-bottom: 40px;
+  }
+
+  nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    padding: 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
+  }
+
+  nav .mainMenu {
+    display: flex;
+    list-style: none;
+    color: #272a31;
+    margin-top: 5px;
+  }
+
+  .join-link a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #272a31;
+    font-size: 20px;
+  }
+
+  .join-link a:hover {
+    color: #ec5242;
+  }
+
+  nav .mainMenu li a:hover {
+    border: rgb(255, 123, 0) solid 3px;
+    color: rgb(255, 94, 0);
+  }
+
+  .openMenu {
+    display: none;
+  }
+
+  .closeMenu {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .logo > p {
+    color: #272a31;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin-top: 20px;
+  }
+
+  a > img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .logo > img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .bootcamp-headings {
+    padding: 0 40px;
+  }
+
+  .hello {
+    font-size: 32px;
+    color: #ec5242;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .course-title {
+    font-size: 35px;
+    color: #ec5242;
+    margin-top: -25px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .summary {
+    border: 4px solid snow;
+    width: fit-content;
+  }
+
+  .summary > p {
+    color: #272a31;
+    font-size: 16px;
+    margin: 15px;
+    line-height: 30px;
+  }
+
+  .summary-about {
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #ccc;
+  }
+
+  .summary-about > p {
+    text-align: center;
+    color: #272a31;
+    font-size: 18px;
+    margin: 15px;
+    line-height: 30px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .timeline > p {
+    color: #272a31;
+    font-size: 30px;
+  }
+
+  /* About page till 704 */
+  .contact {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: lighter;
+    color: #272a31;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    padding-bottom: 60px;
+  }
+
+  .email {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: -15px;
+  }
+
+  .global-recognition {
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #fff;
+  }
+
+  .recognition-title {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .recognition-content {
+    margin: 0 35px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .recognition-map {
+    text-align: center;
+    margin: 0 35px;
+    padding-bottom: 10px;
+  }
+
+  .recognition-map > img {
+    width: 100%;
+    height: 25%;
+    border: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+
+  .past-bootcamps {
+    text-align: center;
+    margin: 0 35px;
+    padding-top: 20px;
+    background-color: #fff;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+  }
+
+  .bootcamp {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+  }
+
+  .past-title {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .past-paragraph {
+    font-size: 18px;
+    color: #272a31;
+    text-align: center;
+    line-height: 32px;
+  }
+
+  .past-bootcamp {
+    position: relative;
+  }
+
+  .past-bootcamp img {
+    width: 100%;
+    border: 2px solid #ccc;
+    margin-bottom: 50px;
+    opacity: 0.4;
+  }
+
+  .past-bootcamp h2 {
+    font-size: 40px;
+    color: #ec5242;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0 !important;
+  }
+
+  .main-program {
+    margin-top: -31px;
+    color: #fff;
+    background: #000;
+  }
+
+  .main-program-contents {
+    margin: 0 40px;
+    padding-bottom: 50px;
+  }
+
+  .main-program-head {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+    padding-top: 50px;
+  }
+
+  hr.line {
+    width: 90px;
+    background-color: #ec5242;
+    margin-top: -12px;
+    margin-bottom: 80px;
+  }
+
+  hr.line-about {
+    width: 100%;
+  }
+
+  .icon {
+    background: #fff;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    background-color: rgb(68 62 62 / 46%);
+  }
+
+  .card-box > * {
+    margin: 10px 10px;
+  }
+
+  .program-title {
+    color: #ec5242;
+  }
+
+  .card-box > .program-title,
+  .program-description {
+    margin-top: -5px;
+  }
+
+  .program-icon {
+    height: 30%;
+  }
+
+  .program-description > p {
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin-top: -10px;
+  }
+
+  .join-button {
+    display: none;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .btn-join {
+    height: 80px;
+    width: auto;
+    font-size: 25px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .join-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .featured-lecturers {
+    margin: 20px 35px;
+    background-color: #fff;
+  }
+
+  .featured-lecturers-title {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25px;
+    font-size: 30px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .lecturers {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .lecturer-box {
+    display: flex;
+  }
+
+  .lecturer-bio {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .lecturer-photo img {
+    height: auto;
+    width: 100px;
+    margin: 10px;
+  }
+
+  .lecturer-name {
+    color: #272a31;
+  }
+
+  .lecturer-job > p {
+    color: #ec5242;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin-top: -15px;
+  }
+
+  .lecturer-summary p {
+    color: #272a31;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin-top: -15px;
+  }
+
+  .more-btn {
+    display: none;
+  }
+
+  footer {
+    background: #272a31;
+    margin-top: 100px;
+    color: #d3d3d3;
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-content h3 {
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socials li {
+    margin: 0 10px;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    nav,
+    .bootcamp-headings,
+    .main-program,
+    .featured-lecturers,
+    .global-recognition,
+    .past-bootcamps {
+      padding: 0 140px;
+    }
+  }
+}
