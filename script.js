@@ -31,6 +31,20 @@ const featureLecturersList = [
   {
     image: 'images/Passport-Picture.JPG',
     name: 'Patrick Mukunzi',
+    title: 'Faculty head EMU',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+  },
+
+  {
+    image: 'images/Passport-Picture.JPG',
+    name: 'Patrick Mukunzi',
+    title: 'Faculty head EMU',
+    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+  },
+
+  {
+    image: 'images/Passport-Picture.JPG',
+    name: 'Patrick Mukunzi',
     title: 'Lecturer Boston MIS',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
   },

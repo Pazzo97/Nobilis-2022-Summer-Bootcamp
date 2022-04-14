@@ -3,7 +3,7 @@
 > This project is about the Nobilis summer bootcamp which teach about website development using Html5, CSS3, and Javascript.
 
 
-## Built Withhttps://www.loom.com/share/940147d69ce84a048796b240cc10d1d9
+## Built Withhttps:
 
 - Html5
 - CSS3
@@ -11,10 +11,15 @@
 
 ## Live Demo
 
-[Live Demo Link](https://loom.com/share/44df9d95b61c462e8fc4c35a21c0c8b0)
+[Live Demo Link](https://pazzo97.github.io/Capstone/)
 
 
 ## Getting Started
+
+Video on how website look like
+
+- https://loom.com/share/44df9d95b61c462e8fc4c35a21c0c8b0
+
 
 To get a local copy up and running follow these simple example steps.
 
@@ -40,7 +45,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Credit to  Cindy Shin (https://www.behance.net/adagio07) who designed this website
+- Credit to [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://   www.behance.net/gallery/29845175/CC-Global-Summit-2015), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
 - geeksforgeeks
 - stack overflow
 - medium
