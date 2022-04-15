@@ -15,14 +15,14 @@ closeMenu.addEventListener('click', close);
 
 const featureLecturersList = [
   {
-    image: 'images/Passport-Picture.JPG',
+    image: 'images/new.png',
     name: 'Patrick Mukunzi',
     title: 'CEO Nobilis',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
   },
 
   {
-    image: 'images/Passport-Picture.JPG',
+    image: 'images/new.png',
     name: 'Patrick Mukunzi',
     title: 'Faculty head EMU',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
@@ -36,21 +36,21 @@ const featureLecturersList = [
   },
 
   {
-    image: 'images/Passport-Picture.JPG',
+    image: 'images/new.png',
     name: 'Patrick Mukunzi',
     title: 'Faculty head EMU',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
   },
 
   {
-    image: 'images/Passport-Picture.JPG',
+    image: 'images/new.png',
     name: 'Patrick Mukunzi',
     title: 'Lecturer Boston MIS',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
   },
 
   {
-    image: 'images/Passport-Picture.JPG',
+    image: 'images/new.png',
     name: 'Patrick Mukunzi',
     title: 'Lecturer Texas Tech',
     bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
