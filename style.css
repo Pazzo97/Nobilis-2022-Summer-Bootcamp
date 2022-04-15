@@ -201,6 +201,11 @@
     padding-bottom: 10px;
   }
 
+  .recognition-content p {
+    text-align: center;
+    line-height: 35px;
+  }
+
   .recognition-map {
     text-align: center;
     margin: 0 35px;
@@ -299,12 +304,11 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-    margin: 10px 10px;
     background-color: rgb(68 62 62 / 46%);
   }
 
   .card-box > * {
-    margin: 0 auto;
+    margin: 3px;
     max-width: 1200px;
   }
 
@@ -391,7 +395,8 @@
 
   .more-btn {
     width: 100%;
-    border: 1px solid #272a31;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
     color: #272a31;
     padding: 14px 28px;
     font-size: 25px;
@@ -399,6 +404,7 @@
     text-align: center;
     margin-top: 75px;
     line-height: 50px;
+    background-color: #fff;
   }
 
   .fa-chevron-down {
@@ -408,7 +414,6 @@
   }
 
   footer {
-    margin-top: 100px;
     color: #d3d3d3;
   }
 
@@ -420,6 +425,12 @@
     flex-direction: column;
     text-align: center;
     color: #d3d3d3;
+
+    /* display: none; */
+  }
+
+  .partners-home {
+    display: none;
   }
 
   .footer-content h3 {
@@ -428,11 +439,26 @@
     text-transform: capitalize;
   }
 
+  .footer-content-about {
+    background-color: #fff;
+    padding-top: 10px;
+  }
+
+  .footer-content-about .footer-bottom p {
+    color: #272a31;
+  }
+
+  .about-desktop {
+    display: none;
+  }
+
   .socials {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 75px;
+    margin-top: -40px;
   }
 
   .socials li {
@@ -452,6 +478,7 @@
 
   .logo-about {
     display: flex;
+    margin-top: 40px;
   }
 
   .logo-about img {
@@ -501,7 +528,7 @@
     height: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 3em;
+    padding-right: 64px;
   }
 
   .lowerNavContainer {
@@ -518,6 +545,13 @@
     margin-top: 6px;
   }
 
+  .navSocials a {
+    color: #d3d3d3;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
   a > img {
     height: 50px;
     width: 50px;
@@ -526,6 +560,7 @@
   .navSocials img {
     height: 18px;
     width: auto;
+    margin-top: 1.5px;
   }
 
   .topNav {
@@ -544,16 +579,14 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
+    /* justify-content: space-between; */
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
   }
 
-  nav .mainMenu {
-    display: flex;
-    list-style: none;
-    color: #272a31;
-    margin-top: 0;
+  .about-lower li {
+    margin-left: 15px;
   }
 
   .join-link a {
@@ -561,6 +594,17 @@
     font-size: 20px;
     text-decoration: underline;
     font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .about-lower li a {
+    margin-left: -10px;
+  }
+
+  nav .mainMenu {
+    display: flex;
+    list-style: none;
+    color: #272a31;
+    margin-top: 0;
   }
 
   nav .mainMenu li a {
@@ -706,7 +750,6 @@
   }
 
   .recognition-content {
-    /* margin: 0 35px; */
     font-size: 18px;
     text-align: center;
     font-family: 'cocogoose-pro-thin-regular', sans-serif;
@@ -716,6 +759,7 @@
 
   .recognition-content p {
     text-align: center;
+    line-height: 35px;
   }
 
   .recognition-map {
@@ -760,6 +804,7 @@
     color: #272a31;
     text-align: center;
     line-height: 32px;
+    padding: 0 2em;
   }
 
   .past-bootcamp {
@@ -767,7 +812,7 @@
   }
 
   .past-bootcamp img {
-    width: 90%;
+    width: 80%;
     border: 2px solid #ccc;
     margin-bottom: 50px;
     opacity: 0.4;
@@ -942,6 +987,10 @@
     display: none;
   }
 
+  .partners-about {
+    display: none;
+  }
+
   footer {
     margin: 100px 0;
     color: #d3d3d3;
@@ -955,12 +1004,24 @@
     flex-direction: column;
     text-align: center;
     color: #d3d3d3;
+    margin-top: 70px;
+  }
+
+  .footer-content hr {
+    width: 40px;
   }
 
   .footer-content h3 {
     font-size: 32px;
     font-weight: 500;
     text-transform: capitalize;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .footer-content-about {
+    background-color: #272a31;
+    color: #d3d3d3;
+    padding-top: 10px;
   }
 
   .socials {
@@ -968,6 +1029,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 75px;
+    margin-top: -40px;
   }
 
   .socials li {
@@ -996,5 +1059,13 @@
 
   .paragraph-footer {
     line-height: 40px;
+  }
+
+  .footer-content-about .footer-bottom p {
+    color: #d3d3d3;
+  }
+
+  .about-phone {
+    display: none;
   }
 }
