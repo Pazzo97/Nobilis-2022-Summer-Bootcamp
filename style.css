@@ -132,7 +132,7 @@
     width: fit-content;
   }
 
-  .summary>p {
+  .summary > p {
     color: #272a31;
     font-size: 16px;
     margin: 15px;
@@ -146,7 +146,7 @@
     border: 2px solid #ccc;
   }
 
-  .summary-about>p {
+  .summary-about > p {
     text-align: center;
     color: #272a31;
     font-size: 18px;
@@ -212,7 +212,7 @@
     padding-bottom: 10px;
   }
 
-  .recognition-map>img {
+  .recognition-map > img {
     width: 100%;
     height: 25%;
     border: 2px solid #ccc;
@@ -308,7 +308,7 @@
     background-color: rgb(68 62 62 / 46%);
   }
 
-  .card-box>* {
+  .card-box > * {
     margin: 3px;
     max-width: 1200px;
   }
@@ -318,7 +318,7 @@
     font-family: 'cocogoose-pro-thin', sans-serif;
   }
 
-  .program-description>p {
+  .program-description > p {
     font-family: 'cocogoose-pro-thin-regular', sans-serif;
     color: #d3d3d3;
   }
@@ -377,7 +377,7 @@
     color: #272a31;
   }
 
-  .lecturer-job>p {
+  .lecturer-job > p {
     color: #ec5242;
     font-weight: 300;
     font-size: 18px;
@@ -487,7 +487,7 @@
     width: 80px;
   }
 
-  .logo-footer .logo-about>p {
+  .logo-footer .logo-about > p {
     margin-top: 25px;
     font-weight: 900;
     color: #272a31;
@@ -553,7 +553,7 @@
     font-family: 'cocogoose-pro-thin-regular', sans-serif;
   }
 
-  a>img {
+  a > img {
     height: 50px;
     width: 50px;
   }
@@ -642,7 +642,7 @@
     gap: 10px;
   }
 
-  .logo>p {
+  .logo > p {
     color: #272a31;
     font-size: 30px;
     font-weight: 700;
@@ -650,7 +650,7 @@
     margin-top: 8px;
   }
 
-  .logo>img {
+  .logo > img {
     height: 50px;
     width: 50px;
   }
@@ -690,7 +690,7 @@
     width: fit-content;
   }
 
-  .summary>p {
+  .summary > p {
     color: #272a31;
     font-size: 16px;
     margin: 15px;
@@ -703,7 +703,7 @@
     border: 2px solid #ccc;
   }
 
-  .summary-about>p {
+  .summary-about > p {
     text-align: center;
     color: #272a31;
     font-size: 18px;
@@ -712,7 +712,7 @@
     font-family: 'cocogoose-pro-thin-regular', sans-serif;
   }
 
-  .timeline>p {
+  .timeline > p {
     color: #272a31;
     font-size: 30px;
   }
@@ -770,7 +770,7 @@
     padding-bottom: 10px;
   }
 
-  .recognition-map>img {
+  .recognition-map > img {
     width: 60%;
     height: 25%;
     border: 2px solid #ccc;
@@ -881,7 +881,7 @@
     background-color: rgb(68 62 62 / 46%);
   }
 
-  .card-box>* {
+  .card-box > * {
     margin: 10px 10px;
   }
 
@@ -889,7 +889,7 @@
     color: #ec5242;
   }
 
-  .card-box>.program-title,
+  .card-box > .program-title,
   .program-description {
     margin-top: -5px;
   }
@@ -898,7 +898,7 @@
     height: 30%;
   }
 
-  .program-description>p {
+  .program-description > p {
     font-family: 'cocogoose-pro-thin-regular', sans-serif;
     margin-top: -10px;
   }
@@ -967,7 +967,7 @@
     color: #272a31;
   }
 
-  .lecturer-job>p {
+  .lecturer-job > p {
     color: #ec5242;
     font-weight: 300;
     font-size: 18px;
@@ -1054,7 +1054,7 @@
     width: 150px;
   }
 
-  .logo-footer .logo>p {
+  .logo-footer .logo > p {
     margin-top: 45px;
   }
 
@@ -1069,5 +1069,4 @@
   .about-phone {
     display: none;
   }
-
 }
