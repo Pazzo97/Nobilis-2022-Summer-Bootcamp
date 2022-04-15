@@ -267,7 +267,9 @@
 
   .main-program {
     margin-top: -31px;
-    background: #000;
+    background-image: url('images/repeat-bg.png');
+    background-repeat: repeat;
+    background-color: #000;
   }
 
   .main-program-contents {
@@ -303,9 +305,12 @@
   .card-box {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 10px;
     margin: 10px;
-    background-color: rgb(68 62 62 / 46%);
+    background-color: rgb(126 120 120 / 46%);
+    align-items: center;
+    font-size: 10px;
+    letter-spacing: 1px;
   }
 
   .card-box > * {
@@ -313,9 +318,10 @@
     max-width: 1200px;
   }
 
-  .program-title {
+  .program-title > h3 {
     color: #ec5242;
     font-family: 'cocogoose-pro-thin', sans-serif;
+    font-size: 16px;
   }
 
   .program-description > p {
@@ -359,7 +365,6 @@
     display: flex;
     gap: 15px;
     margin-bottom: 25px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
   }
 
   .lecturer-bio {
@@ -367,10 +372,18 @@
     font-size: 18px;
   }
 
+  .lecturer-photo {
+    background-image: url('images/case-speaker-bg.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+  }
+
   .lecturer-photo img {
     height: auto;
     width: 100px;
-    margin: 10px;
+    margin-top: 17px;
+    margin-left: 15px;
+    bottom: 0;
   }
 
   .lecturer-name {
@@ -833,7 +846,8 @@
   .main-program {
     margin-top: -31px;
     color: #d3d3d3;
-    background: #000;
+    background-image: url('images/repeat-bg.png');
+    background-repeat: repeat;
   }
 
   .main-program-contents {
@@ -878,7 +892,8 @@
     display: flex;
     flex-direction: column;
     margin: 10px 10px;
-    background-color: rgb(68 62 62 / 46%);
+    background-color: rgb(126 120 120 / 46%);
+    align-items: center;
   }
 
   .card-box > * {
@@ -950,6 +965,7 @@
 
   .lecturer-box {
     display: flex;
+    gap: 10px;
   }
 
   .lecturer-bio {
@@ -957,10 +973,18 @@
     font-size: 18px;
   }
 
+  .lecturer-photo {
+    background-image: url('images/case-speaker-bg.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+  }
+
   .lecturer-photo img {
     height: auto;
     width: 100px;
-    margin: 10px;
+    margin-top: 17px;
+    margin-left: 15px;
+    bottom: 0;
   }
 
   .lecturer-name {
