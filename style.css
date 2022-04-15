@@ -1,0 +1,1096 @@
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'COCOGOOSE', Lato, sans-serif;
+  }
+
+  nav {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+
+  .mainMenu {
+    display: flex;
+    list-style: none;
+    color: #272a31;
+  }
+
+  nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #272a31;
+    font-size: 1.5rem;
+  }
+
+  .mainMenu li a:hover {
+    color: rgb(255, 94, 0);
+  }
+
+  .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .header {
+    position: relative;
+    background-image: url('images/background.png');
+  }
+
+  .header-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.7;
+  }
+
+  .header-container {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 40px;
+  }
+
+  .topNav {
+    display: none;
+  }
+
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #d3d3d3;
+    transition: top 1s ease;
+    display: none;
+    margin: 0;
+  }
+
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 65px;
+    right: 50px;
+  }
+
+  nav .openMenu {
+    display: block;
+  }
+
+  nav .mainMenu li a:hover {
+    background: none;
+    color: rgb(255, 123, 0);
+    font-size: 1.6rem;
+  }
+
+  .bootcamp-headings {
+    margin: 0 35px;
+  }
+
+  .hello {
+    font-size: 32px;
+    color: #ec5242;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .about-course {
+    font-size: 35px;
+    color: #ec5242;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .course-title {
+    font-size: 35px;
+    color: #ec5242;
+    margin-top: -25px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .summary {
+    border: 4px solid snow;
+    width: fit-content;
+  }
+
+  .summary > p {
+    color: #272a31;
+    font-size: 16px;
+    margin: 15px;
+    line-height: 30px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .summary-about {
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #ccc;
+  }
+
+  .summary-about > p {
+    text-align: center;
+    color: #272a31;
+    font-size: 18px;
+    margin: 15px;
+    line-height: 30px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .timeline {
+    color: #000;
+    font-size: 30px;
+  }
+
+  /* About page till line  277 */
+  .contact {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: lighter;
+    color: #272a31;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    padding-bottom: 60px;
+  }
+
+  .email {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: -15px;
+  }
+
+  .global-recognition {
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .recognition-title {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .recognition-content {
+    margin: 0 35px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .recognition-content p {
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .recognition-map {
+    text-align: center;
+    margin: 0 35px;
+    padding-bottom: 10px;
+  }
+
+  .recognition-map > img {
+    width: 100%;
+    height: 25%;
+    border: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+
+  .past-bootcamps {
+    text-align: center;
+    margin: 0 35px;
+    padding-top: 20px;
+    background-color: #fff;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+  }
+
+  .past-title {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .past-paragraph {
+    font-size: 18px;
+    color: #272a31;
+    text-align: center;
+    line-height: 32px;
+  }
+
+  .past-bootcamp {
+    position: relative;
+  }
+
+  .past-bootcamp img {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #ccc;
+    margin-bottom: 50px;
+    opacity: 0.4;
+  }
+
+  .past-bootcamp h2 {
+    font-size: 40px;
+    color: #ec5242;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0 !important;
+  }
+
+  .main-program {
+    margin-top: -31px;
+    background-image: url('images/repeat-bg.png');
+    background-repeat: repeat;
+    background-color: #000;
+  }
+
+  .main-program-contents {
+    margin: 0 35px;
+    padding-bottom: 50px;
+  }
+
+  .main-program-head {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+    padding-top: 50px;
+    color: #d3d3d3;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+  }
+
+  hr.line {
+    color: #ec5242;
+    width: 60px;
+    background-color: #ec5242;
+    margin-top: -12px;
+    margin-bottom: 80px;
+  }
+
+  hr.line-about {
+    width: 100%;
+  }
+
+  .icon {
+    background: #fff;
+  }
+
+  .card-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+    background-color: rgb(126 120 120 / 46%);
+    align-items: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .card-box > * {
+    margin: 3px;
+    max-width: 1200px;
+  }
+
+  .program-title > h3 {
+    color: #ec5242;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    font-size: 16px;
+  }
+
+  .program-description > p {
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    color: #d3d3d3;
+  }
+
+  .join-button {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .btn-join {
+    height: 80px;
+    width: auto;
+    font-size: 25px;
+    background-color: #ec5242;
+    color: #d3d3d3;
+    border: none;
+    cursor: pointer;
+  }
+
+  .join-link {
+    display: none;
+  }
+
+  .featured-lecturers {
+    margin: 20px 35px;
+    background-color: #fff;
+  }
+
+  .featured-lecturers-title {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25px;
+    font-size: 30px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .lecturer-box {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+
+  .lecturer-bio {
+    margin: 10px;
+    font-size: 18px;
+  }
+
+  .lecturer-photo {
+    background-image: url('images/case-speaker-bg.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+  }
+
+  .lecturer-photo img {
+    height: auto;
+    width: 100px;
+    margin-top: 17px;
+    margin-left: 15px;
+    bottom: 0;
+  }
+
+  .lecturer-name {
+    color: #272a31;
+  }
+
+  .lecturer-job > p {
+    color: #ec5242;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin-top: -10px;
+  }
+
+  .lecturer-summary p {
+    color: #272a31;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin-top: -10px;
+  }
+
+  .more-btn {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    color: #272a31;
+    padding: 14px 28px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 75px;
+    line-height: 50px;
+    background-color: #fff;
+  }
+
+  .fa-chevron-down {
+    font-size: 25px;
+    color: #ec5242;
+    margin-left: 10px;
+  }
+
+  footer {
+    color: #d3d3d3;
+  }
+
+  .footer-content {
+    background: #272a31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #d3d3d3;
+
+    /* display: none; */
+  }
+
+  .partners-home {
+    display: none;
+  }
+
+  .footer-content h3 {
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  .footer-content-about {
+    background-color: #fff;
+    padding-top: 10px;
+  }
+
+  .footer-content-about .footer-bottom p {
+    color: #272a31;
+  }
+
+  .about-desktop {
+    display: none;
+  }
+
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: -40px;
+  }
+
+  .socials li {
+    margin: 0 10px;
+  }
+
+  .footer-bottom {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 30px;
+    justify-content: center;
+    color: #272a31;
+    font-size: 22px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin-top: 35px;
+  }
+
+  .logo-about {
+    display: flex;
+    margin-top: 40px;
+  }
+
+  .logo-about img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .logo-footer .logo-about > p {
+    margin-top: 25px;
+    font-weight: 900;
+    color: #272a31;
+  }
+
+  .paragraph-footer {
+    line-height: 40px;
+  }
+
+  .home-footer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'COCOGOOSE', Lato, sans-serif;
+  }
+
+  .header {
+    position: relative;
+    background-image: url('images/background.png');
+    background-color: rgba(247, 247, 247, 0.6);
+  }
+
+  .header-container {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .navSocials {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 64px;
+  }
+
+  .lowerNavContainer {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 3em;
+  }
+
+  .navSocials li {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 6px;
+  }
+
+  .navSocials a {
+    color: #d3d3d3;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  a > img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .navSocials img {
+    height: 18px;
+    width: auto;
+    margin-top: 1.5px;
+  }
+
+  .topNav {
+    background-color: #272a31;
+    height: 30px;
+  }
+
+  .lowerNav {
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  nav {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    /* justify-content: space-between; */
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px;
+  }
+
+  .about-lower li {
+    margin-left: 15px;
+  }
+
+  .join-link a {
+    color: #d3d3d3;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .about-lower li a {
+    margin-left: -10px;
+  }
+
+  nav .mainMenu {
+    display: flex;
+    list-style: none;
+    color: #272a31;
+    margin-top: 0;
+  }
+
+  nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #272a31;
+    font-size: 16px;
+    margin-top: -2px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .join-link a:hover {
+    color: #ec5242;
+  }
+
+  nav .mainMenu li a:hover {
+    border: rgb(255, 123, 0) solid 3px;
+    color: rgb(255, 94, 0);
+  }
+
+  .openMenu {
+    display: none;
+  }
+
+  .closeMenu {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .logo > p {
+    color: #272a31;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin-top: 8px;
+  }
+
+  .logo > img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .bootcamp-headings {
+    padding: 0 40px;
+  }
+
+  .hello {
+    font-size: 32px;
+    color: #ec5242;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .course-title {
+    font-size: 40px;
+    color: #ec5242;
+    margin-top: -25px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  .about-course {
+    font-size: 35px;
+    color: #ec5242;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 80px;
+  }
+
+  .summary {
+    border: 4px solid snow;
+    width: fit-content;
+  }
+
+  .summary > p {
+    color: #272a31;
+    font-size: 16px;
+    margin: 15px;
+    line-height: 30px;
+  }
+
+  .summary-about {
+    background-color: #fff;
+    padding: 10px;
+    border: 2px solid #ccc;
+  }
+
+  .summary-about > p {
+    text-align: center;
+    color: #272a31;
+    font-size: 18px;
+    margin: 15px;
+    line-height: 30px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .timeline > p {
+    color: #272a31;
+    font-size: 30px;
+  }
+
+  /* About page till 704 */
+  .contact {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #272a31;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    padding: 60px 0;
+    line-height: 45px;
+  }
+
+  .email {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: -15px;
+  }
+
+  .global-recognition {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #fff;
+    width: 70%;
+  }
+
+  .recognition-title {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .recognition-content {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .recognition-content p {
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .recognition-map {
+    text-align: center;
+
+    /* margin: 0 35px; */
+    padding-bottom: 10px;
+  }
+
+  .recognition-map > img {
+    width: 60%;
+    height: 25%;
+    border: 2px solid #ccc;
+    margin-bottom: 50px;
+  }
+
+  .past-bootcamps {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #fff;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+  }
+
+  .bootcamp {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+  }
+
+  .past-title {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    color: #272a31;
+    padding-bottom: 10px;
+  }
+
+  .past-paragraph {
+    font-size: 18px;
+    color: #272a31;
+    text-align: center;
+    line-height: 32px;
+    padding: 0 2em;
+  }
+
+  .past-bootcamp {
+    position: relative;
+  }
+
+  .past-bootcamp img {
+    width: 80%;
+    border: 2px solid #ccc;
+    margin-bottom: 50px;
+    opacity: 0.4;
+  }
+
+  .past-bootcamp h2 {
+    font-size: 40px;
+    color: #ec5242;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0 !important;
+  }
+
+  .main-program {
+    margin-top: -31px;
+    color: #d3d3d3;
+    background-image: url('images/repeat-bg.png');
+    background-repeat: repeat;
+  }
+
+  .main-program-contents {
+    margin: 0 40px;
+    padding-bottom: 50px;
+  }
+
+  .main-program-head {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+    padding-top: 50px;
+    font-family: 'cocogoose-pro-thin', sans-serif;
+  }
+
+  hr.line {
+    width: 90px;
+    background-color: #ec5242;
+    margin-top: -12px;
+    margin-bottom: 80px;
+  }
+
+  hr.line-about {
+    width: 100%;
+  }
+
+  .icon {
+    background: #fff;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    background-color: rgb(126 120 120 / 46%);
+    align-items: center;
+  }
+
+  .card-box > * {
+    margin: 10px 10px;
+  }
+
+  .program-title {
+    color: #ec5242;
+  }
+
+  .card-box > .program-title,
+  .program-description {
+    margin-top: -5px;
+  }
+
+  .program-icon {
+    height: 30%;
+  }
+
+  .program-description > p {
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin-top: -10px;
+  }
+
+  .join-button {
+    display: none;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .btn-join {
+    height: 80px;
+    width: auto;
+    font-size: 25px;
+    color: #d3d3d3;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .join-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .featured-lecturers {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+  }
+
+  .featured-lecturers-title {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 25px;
+    font-size: 30px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .lecturers {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .lecturer-box {
+    display: flex;
+    gap: 10px;
+  }
+
+  .lecturer-bio {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .lecturer-photo {
+    background-image: url('images/case-speaker-bg.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+  }
+
+  .lecturer-photo img {
+    height: auto;
+    width: 100px;
+    margin-top: 17px;
+    margin-left: 15px;
+    bottom: 0;
+  }
+
+  .lecturer-name {
+    color: #272a31;
+  }
+
+  .lecturer-job > p {
+    color: #ec5242;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin-top: -15px;
+  }
+
+  .lecturer-summary p {
+    color: #272a31;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin-top: -15px;
+  }
+
+  .more-btn {
+    display: none;
+  }
+
+  .partners-about {
+    display: none;
+  }
+
+  footer {
+    margin: 100px 0;
+    color: #d3d3d3;
+  }
+
+  .footer-content {
+    background: #272a31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #d3d3d3;
+    margin-top: 70px;
+  }
+
+  .footer-content hr {
+    width: 40px;
+  }
+
+  .footer-content h3 {
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+  }
+
+  .footer-content-about {
+    background-color: #272a31;
+    color: #d3d3d3;
+    padding-top: 10px;
+  }
+
+  .socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: -40px;
+  }
+
+  .socials li {
+    margin: 0 10px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    gap: 70px;
+    color: #272a31;
+    font-family: 'cocogoose-pro-thin-regular', sans-serif;
+    margin: 50px auto;
+    padding: 0 2em;
+  }
+
+  .logo-footer img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .logo-footer .logo > p {
+    margin-top: 45px;
+  }
+
+  .paragraph-footer {
+    line-height: 40px;
+  }
+
+  .footer-content-about .footer-bottom p {
+    color: #d3d3d3;
+  }
+
+  .about-phone {
+    display: none;
+  }
+}
