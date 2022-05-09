@@ -1,6 +1,6 @@
 # Nobilis Summer Bootcamp
 
-> This project is about the Nobilis summer bootcamp which teach about website development using Html5, CSS3, and Javascript.
+> This project is about the Nobilis summer bootcamp which teach about website development using Html5, CSS3, and Javascript. it also shows the past bootcamps that took place last years and the featured speakers of the upcoming bootamp.
 
 
 ## Built Withhttps:
