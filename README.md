@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://pazzo97.github.io/Capstone/)
+[Live Demo Link](https://pazzo97.github.io/Nobilis-2022-Summer-Bootcamp/)
 
 
 ## Getting Started
